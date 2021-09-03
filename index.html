@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="navbar">
+        <div id="navbar-links">
+            <a id="press-about" href="#about">About</a>
+            <a id="press-skills" href="#skills">Skills</a>
+            <a id="press-portfolio" href="#portfolio">Portfolio</a>
+            <a href="mailto: alzhang@umich.edu">Email</a>
+        </div>
+    </div>
+
+    <canvas id="canvas"></canvas>
+    <section id="intro" name="about">
+        <div id="intro-info">
+            <p id="intro-name">Hi! I'm <b>Alan Zhang</b></p>
+            <p>a senior at the University of Michigan studying Computer Science with an interest in web and game development</p>
+            <button id="goto-portfolio">See My Work</button>
+        </div>
+        
+    </section>
+    
+    <section id="skills" name="skills">
+        <div id="portfolio-description">
+            <p id="id-temp">Skills</p>
+            <hr>
+            <div id="skills-lists">
+
+                <div class="skills-list">
+                    <ul>
+                        <li id="ul-header">LANGUAGES</li>
+                        <li class="ul-item">C++</li>
+                        <li class="ul-item">C#</li>
+                        <li class="ul-item">Python</li>
+                        <li class="ul-item">HTML</li>
+                        <li class="ul-item">CSS</li>
+                        <li class="ul-item">JavaScript</li>
+                    </ul>
+                </div>
+    
+                <div class="skills-list">
+                    <ul>
+                        <li id="ul-header">FRAMEWORKS</li>
+                        <li class="ul-item">Unity (494 Student)</li>
+                        <li class="ul-item">AngularJS</li>
+                        <li class="ul-item">Flask</li>
+                        <li class="ul-item">jQuery</li>
+                    </ul>
+                </div>
+
+                <div class="skills-list">
+                    <ul>
+                        <li id="ul-header">TOOLS</li>
+                        <li class="ul-item">Git</li>
+                        <li class="ul-item">CLI</li>
+                        <li class="ul-item">Jira</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio" name="portfolio">
+        <p>Games and Websites</p>
+        <hr>
+        <a href="https://my-rhthym-game.herokuapp.com/">
+            <div class="project">
+                <img id="game1" src="game1.png" alt="">
+                <div>
+                    <p id="link-text">Rhythm Game</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="http://www-personal.umich.edu/~alzhang/WebBuild/">
+            <div class="project">
+                <img id="game1" src="games2.png" alt="">
+                <div>
+                    <p id="link-text">Roll-a-Ball</p>
+                </div>
+            </div>
+        </a>
+    </section>
+
+    <script src="js/main.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+</body>
+</html>
